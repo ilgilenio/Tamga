@@ -53,6 +53,8 @@ Ancak birden fazla sözcük ya da büyük harflerle yazarsanız bileşenleriniz 
 <div class="öge bileşen"></div>
 <div class="Öge"></div>
 ```
+### Dene
+Yukarıda yazılanları [**CodePen**](https://codepen.io/otag/pen/wjOMoR?editors=0010) üzerinde dene
 
 - - - -
 ### Daha Fazla Öğren
