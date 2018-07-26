@@ -1,7 +1,7 @@
 # Tamga
 Tamga, JavaScript DOM için tasarlanmış kolay Yazım tekniğidir.
 
-[🌑Otağ JS](https://github.com/ilgilenio/Otag/wiki)'de ögeler Tamga Yazımı ile oluşturulur.
+🌑[Otağ JS](https://otagjs.org)'de ögeler Tamga Yazımı ile oluşturulur.
 
 ```JavaScript
 'a#kimlik.sınıf[nitelik="değer"]'.init()
@@ -59,4 +59,4 @@ Yukarıda yazılanları [**CodePen**](https://codepen.io/otag/pen/wjOMoR?editors
 - - - -
 ### Daha Fazla Öğren
 
-[🌑Otağ JS](https://github.com/ilgilenio/Otag)'de yalınlaştırmak için Tamga'dan daha fazlası var. Hemen [okumaya başla](https://github.com/ilgilenio/Otag/wiki)!
+🌑[Otağ](https://otagjs.org)'da yalınlaştırmak için Tamga'dan daha fazlası var. Hemen [okumaya başla](https://github.com/ilgilenio/Otag/wiki)!
