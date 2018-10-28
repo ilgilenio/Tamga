@@ -1,62 +1,24 @@
-# Tamga
-Tamga, JavaScript DOM için tasarlanmış kolay Yazım tekniğidir.
+![](https://otagjs.org/img/tamga.svg)
 
-🌑[Otağ JS](https://otagjs.org)'de ögeler Tamga Yazımı ile oluşturulur.
+# Otağ: Tamga
 
-```JavaScript
-'a#kimlik.sınıf[nitelik="değer"]'.init()
-```
-==
+Tamga, JavaScript DOM ögeleri oluşturmak için tasarlanmış kolay yazım yöntemi ve sözdizimidir.
 
-```HTML
-<a id="kimlik" class="sınıf" nitelik="değer"></a>
-```
+🌑[Otağ](https://otagjs.org) JS'de ögeler Tamga Yazımı ile oluşturulur.
 
-Bu kadar yalın ve kolay!
+## Yönergeler
+[Tamga Yönergesi](./Tamga.MD)
 
-- - - -
-### Öntanımlı olarak div
+[Tamga Şablonlama Yönergesi](./Tamga-Şablonlama.MD)
 
-div yaygın olarak kullanılan bir öge türü olduğu için belirtilmediği sürece div oluşturulur.
 
-```JavaScript
-'#kimlik'.init()
-```
-==
+## Dene
+Tamga yazımını [**CodePen**](https://codepen.io/otag/pen/EdMyqL?editors=0010) üzerinde dene
 
-```HTML
-<div id="kimlik"></div>
-```
-- - - -
-### WEB Bileşenleri
+## Daha Fazla Öğren
 
-Keyfi öge türleri oluşturmak için küçük harfler kullanabilirsiniz 
+🌑[Otağ](https://otagjs.org)'da Tamga'dan daha fazlası var. Hemen [okumaya başla](https://belge.otagjs.org/tr/)!
 
-```JavaScript
-'öge'.init()
-```
-==
+## Yeterge 
 
-```HTML
-<öge></öge>
-```
-
-Ancak birden fazla sözcük ya da büyük harflerle yazarsanız bileşenleriniz yazdığınız sınıfları içeren bir div nesnesi olur.
-
-```JavaScript
-'öge bileşen'.init()
-'Öge'.init()
-```
-==
-
-```HTML
-<div class="öge bileşen"></div>
-<div class="Öge"></div>
-```
-### Dene
-Yukarıda yazılanları [**CodePen**](https://codepen.io/otag/pen/wjOMoR?editors=0010) üzerinde dene
-
-- - - -
-### Daha Fazla Öğren
-
-🌑[Otağ](https://otagjs.org)'da yalınlaştırmak için Tamga'dan daha fazlası var. Hemen [okumaya başla](https://github.com/ilgilenio/Otag/wiki)!
+Telif Hakkı © 2018 ⊕[Otağ](https://otagjs.org)™ 
