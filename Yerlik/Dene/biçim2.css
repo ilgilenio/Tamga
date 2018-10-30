@@ -1,0 +1,77 @@
+img {
+  width: 200px;
+  padding: 10px;
+}
+
+header {
+  /* box-shadow: 0 3px; */
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  filter: invert(1);
+  background: #e2e1e1;
+  box-shadow: 0 0 10px 1px #fff;
+}
+
+#body {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  max-width: 1453px;
+  margin: 0 auto;
+  box-shadow: 0 0 100px #000;
+  width: 100%;
+}
+
+.Uygu{
+  display: grid;
+  grid-template-rows: 70px auto;
+}
+
+.sağ {
+  display: grid;
+  grid-template-rows: 42px auto 42px auto;
+  margin: 0;
+}
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  height: 100%;
+  margin: 0;
+  background: #313131;
+}
+
+textarea {
+  background: #333;
+  border: 0;
+  color: #ce4a4a;
+  box-shadow: -1px 0 #222 inset;
+  padding: 20px;
+  font-family: "Hack","Source Sans Pro",monospace;
+  font-size: 22px;
+  outline: none;
+  resize: none;
+}
+
+h2:first-child {
+  color: #09F;
+  background: #232323;
+  margin: 0;
+  padding: 14px 0;
+}
+.önizle{
+  padding:12px;
+  background: #FFF;
+}
+@media screen and (max-width: 800px) {
+  #body{
+    grid-template-columns:auto;
+    grid-template-rows:auto auto auto;
+  }
+}
+h2 {
+  background: #FFF;
+  padding: 12px 0;
+  margin: 0;
+}
