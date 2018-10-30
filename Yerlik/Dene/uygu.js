@@ -28,7 +28,7 @@ let Uygu='Uygu'.kur({
   template: `
     header
       a[href="../"]
-        img:/tamga.svg
+        img:../tamga.svg
     #body
       yaz
       pre.sağ
@@ -40,7 +40,7 @@ let Uygu='Uygu'.kur({
 })
 Uygu.to = 'body'
 let Örnekler = [
-  'img:/tamga.svg',
+  'img:../tamga.svg',
   'img://otagjs.org/img/otag.svg',
   'p:Yazı:İkinci Dize:Üçüncü Dize',
   'h1:Esenlikler',
